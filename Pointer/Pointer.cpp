@@ -8,12 +8,12 @@ int main()
 
    const char * psz = "Hello World!\n";
 
-   text_pack textpack;
+   text_pack pacote_de_texto;
 
-   textpack.m_psz = psz;
+   pacote_de_texto.m_psz = psz;
 
-   print(textpack);
+   print(pacote_de_texto);
 
-   print(&textpack);
+   print(&pacote_de_texto);
     
 }
